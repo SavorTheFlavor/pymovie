@@ -30,7 +30,7 @@ def user():
 
 @home.route("/psw")
 def psw():
-    return render_template("home/psw.html")
+    return render_template("home/pwd.html")
 
 @home.route("/comments")
 def comments():
