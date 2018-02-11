@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="box-footer">
-                        {{ form.csrf_token }}
+                        {{ form.csrf_token }} <!-- 防范csrf攻击 -->
                         {{ form.submit }}
                     </div>
                 </form>
